@@ -1,9 +1,8 @@
-[gd_scene format=4 uid="uid://cppg5yoxwv0dy"]
+[gd_scene format=3 uid="uid://cppg5yoxwv0dy"]
 
 [ext_resource type="PackedScene" uid="uid://bjntpxb1c8jxn" path="res://Scenes/Levels/base_level.tscn" id="1_3fxa7"]
 [ext_resource type="Texture2D" uid="uid://dkc8rdq3j7ppf" path="res://Assets/BG/mountainA.png" id="2_2e1f7"]
 [ext_resource type="PackedScene" uid="uid://towe6jtciome" path="res://Scenes/Levels/level_03.tscn" id="2_q8k1b"]
-[ext_resource type="PackedScene" uid="uid://bfmh3fm2de78o" path="res://Scenes/Prefabs/coin.tscn" id="4_mnnsc"]
 
 [node name="BaseLevel" unique_id=1997201631 instance=ExtResource("1_3fxa7")]
 
@@ -11,52 +10,16 @@
 position = Vector2(1118, 400)
 next_scene = ExtResource("2_q8k1b")
 
-[node name="Ground" parent="Level" parent_id_path=PackedInt32Array(1752500785) index="0" unique_id=965522128]
-tile_map_data = PackedByteArray("AAAAAAcAAAADAAEAAAABAAcAAAADAAEAAAACAAcAAAADAAEAAAADAAcAAAAAAAEAAAAEAAcAAAAAAAEAAAANAAcAAAAAAAEAAAAOAAcAAAAAAAEAAAAPAAcAAAAAAAEAAAAQAAcAAAAAAAEAAAD//wcAAAADAAEAAAD//wYAAAAAAAEAAAAGAAcAAAAAAAEAAAAFAAcAAAAAAAEAAAARAAcAAAAAAAEAAAASAAcAAAAAAAEAAAAMAAcAAAAAAAEAAAALAAcAAAAAAAEAAAAKAAcAAAAAAAEAAAAJAAcAAAAAAAEAAAAAAAYAAAAAAAEAAAABAAYAAAAAAAEAAAACAAYAAAAAAAEAAAD+/wUAAAADAAEAAAD+/wYAAAADAAEAAAD+/wQAAAADAAEAAAD+/wMAAAADAAEAAAD+/wIAAAADAAEAAAD+/wEAAAADAAEAAAAIAAcAAAAAAAEAAAD+/wcAAAADAAEAAAD+/wgAAAADAAEAAAD+/wkAAAADAAEAAAD//wkAAAADAAEAAAD//wgAAAADAAEAAAAGAAgAAAADAAEAAAAGAAkAAAADAAEAAAAHAAkAAAADAAEAAAAHAAgAAAADAAEAAAALAAgAAAADAAEAAAAMAAgAAAADAAEAAAAMAAkAAAADAAEAAAALAAkAAAADAAEAAAAGAAoAAAADAAEAAAAGAAsAAAADAAEAAAAGAAwAAAADAAEAAAAGAA0AAAADAAEAAAAHAA0AAAADAAEAAAAHAAwAAAADAAEAAAAHAAsAAAADAAEAAAAHAAoAAAADAAEAAAD+/woAAAADAAEAAAD+/wsAAAADAAEAAAD+/wwAAAADAAEAAAD+/w0AAAADAAEAAAD//w0AAAADAAEAAAD//wwAAAADAAEAAAD//wsAAAADAAEAAAD//woAAAADAAEAAAALAAoAAAADAAEAAAALAAsAAAADAAEAAAALAAwAAAADAAEAAAALAA0AAAADAAEAAAAMAA0AAAADAAEAAAAMAAwAAAADAAEAAAAMAAsAAAADAAEAAAAMAAoAAAADAAEAAAASAAgAAAADAAEAAAASAAkAAAADAAEAAAASAAoAAAADAAEAAAASAAsAAAADAAEAAAASAAwAAAADAAEAAAASAA0AAAADAAEAAAARAA0AAAADAAEAAAARAAwAAAADAAEAAAARAAsAAAADAAEAAAARAAoAAAADAAEAAAARAAkAAAADAAEAAAARAAgAAAADAAEAAAASAAYAAAADAAQAAAASAAUAAAADAAQAAAASAAQAAAADAAQAAAASAAMAAAADAAQAAAASAAIAAAADAAQAAAASAAEAAAADAAQAAAASAAAAAAADAAQAAAA=")
-
-[node name="Traps" parent="Level" parent_id_path=PackedInt32Array(1752500785) index="1" unique_id=2059190691]
-tile_map_data = PackedByteArray("AAAeAAkAAAAAAAUAAAAHAAcAAAAAAAUAAAAFAAQAAAABAAUAAAAKAAQAAAABAAUAAAA=")
-
-[node name="Background1" parent="Level" parent_id_path=PackedInt32Array(1752500785) index="2" unique_id=1072429833]
+[node name="Background1" parent="Level" parent_id_path=PackedInt32Array(1752500785) index="0" unique_id=1072429833]
 metadata/_edit_lock_ = true
 
-[node name="Background2" parent="Level" parent_id_path=PackedInt32Array(1752500785) index="3" unique_id=1070008654]
+[node name="Background2" parent="Level" parent_id_path=PackedInt32Array(1752500785) index="1" unique_id=1070008654]
 metadata/_edit_lock_ = true
 
 [node name="MountainA" type="Sprite2D" parent="Level/Background2" index="0" unique_id=1142107788]
 position = Vector2(270.25, 217.24998)
 scale = Vector2(2.1334267, 2.4474432)
 texture = ExtResource("2_2e1f7")
-
-[node name="Coin" parent="Coins" parent_id_path=PackedInt32Array(1530662565) index="0" unique_id=251510796 instance=ExtResource("4_mnnsc")]
-position = Vector2(604, 300)
-
-[node name="Coin2" parent="Coins" parent_id_path=PackedInt32Array(1530662565) index="1" unique_id=1700925157 instance=ExtResource("4_mnnsc")]
-position = Vector2(419, 300)
-
-[node name="Coin3" parent="Coins" parent_id_path=PackedInt32Array(1530662565) index="2" unique_id=1148731163 instance=ExtResource("4_mnnsc")]
-position = Vector2(743, 400)
-
-[node name="Coin4" parent="Coins" parent_id_path=PackedInt32Array(1530662565) index="3" unique_id=1330056164 instance=ExtResource("4_mnnsc")]
-position = Vector2(784, 400)
-
-[node name="Coin5" parent="Coins" parent_id_path=PackedInt32Array(1530662565) index="4" unique_id=118296449 instance=ExtResource("4_mnnsc")]
-position = Vector2(835, 400)
-
-[node name="Coin6" parent="Coins" parent_id_path=PackedInt32Array(1530662565) index="5" unique_id=216351608 instance=ExtResource("4_mnnsc")]
-position = Vector2(876, 400)
-
-[node name="Coin7" parent="Coins" parent_id_path=PackedInt32Array(1530662565) index="6" unique_id=415890634 instance=ExtResource("4_mnnsc")]
-position = Vector2(927, 400)
-
-[node name="Coin8" parent="Coins" parent_id_path=PackedInt32Array(1530662565) index="7" unique_id=414464375 instance=ExtResource("4_mnnsc")]
-position = Vector2(968, 400)
-
-[node name="Coin9" parent="Coins" parent_id_path=PackedInt32Array(1530662565) index="8" unique_id=367166031 instance=ExtResource("4_mnnsc")]
-position = Vector2(1019, 400)
-
-[node name="Coin10" parent="Coins" parent_id_path=PackedInt32Array(1530662565) index="9" unique_id=1702608964 instance=ExtResource("4_mnnsc")]
-position = Vector2(1060, 400)
 
 [node name="Label" parent="UserInterface" parent_id_path=PackedInt32Array(1799764374) index="1" unique_id=1103718868]
 text = "Level 2"
