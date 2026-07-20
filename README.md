@@ -2,6 +2,10 @@
 
 This starter kit provides all the essential mechanics needed to build a complete 2D platformer game in Godot 4.7. It is designed as a hands-on learning resource for students taking the **Computer Game Development** course at the **College of Computing, Khon Kaen University**.
 
+## Preview
+
+![Game Preview](https://twachi.github.io/2D-Platformer-Starter-Kit/)
+
 ## Features
 
 - **Game Menu** — A simple main menu scene (`Menu.tscn`) with Start and Exit options, so players can launch into the game or quit cleanly.
