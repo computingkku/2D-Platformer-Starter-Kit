@@ -3,6 +3,7 @@ extends Node2D
 @onready var btn_continue: Button = $UI/btnContinue
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
+	DisplayServer.window_set_mode(DisplayServer.WINDOW_MODE_WINDOWED)
 	$UI.size = get_viewport_rect().size
 	btn_continue.disabled = !GameManager.has_gamesaved()
 	GameManager.load_option()
@@ -15,6 +16,7 @@ func _process(delta: float) -> void:
 
 
 func _on_btn_start_pressed() -> void:
+	DisplayServer.window_set_mode(DisplayServer.WINDOW_MODE_EXCLUSIVE_FULLSCREEN)
 	GameManager.restart()
 
 

@@ -104,9 +104,9 @@ layout_mode = 1
 anchors_preset = 1
 anchor_left = 1.0
 anchor_right = 1.0
-offset_left = -66.0
+offset_left = -195.0
 offset_top = 5.0
-offset_right = -2.0
+offset_right = -131.0
 offset_bottom = 63.0
 grow_horizontal = 0
 focus_mode = 0
@@ -117,9 +117,9 @@ layout_mode = 1
 anchors_preset = 1
 anchor_left = 1.0
 anchor_right = 1.0
-offset_left = -126.0
+offset_left = -255.0
 offset_top = 5.0
-offset_right = -68.0
+offset_right = -197.0
 offset_bottom = 63.0
 grow_horizontal = 0
 focus_mode = 0
@@ -138,9 +138,9 @@ layout_mode = 1
 anchors_preset = 1
 anchor_left = 1.0
 anchor_right = 1.0
-offset_left = -191.0
+offset_left = -320.0
 offset_top = 5.0
-offset_right = -128.0
+offset_right = -257.0
 offset_bottom = 63.0
 grow_horizontal = 0
 focus_mode = 0
@@ -184,54 +184,57 @@ anchors_preset = 12
 anchor_top = 1.0
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_top = -80.0
+offset_top = -103.0
 grow_horizontal = 2
 grow_vertical = 0
 color = Color(0, 0.011764706, 0, 0.28235295)
 
 [node name="btnLeft" type="Button" parent="GameUI/BottomBar" unique_id=755149458]
 layout_mode = 0
-offset_left = 16.0
-offset_top = 14.0
-offset_right = 80.0
-offset_bottom = 68.0
+offset_left = 32.0
+offset_top = 10.0
+offset_right = 134.0
+offset_bottom = 99.0
 focus_mode = 0
 icon = ExtResource("8_fouhp")
+flat = true
 
 [node name="btnUp" type="Button" parent="GameUI/BottomBar" unique_id=1894149077]
 layout_mode = 0
-offset_left = 84.0
-offset_top = 14.0
-offset_right = 148.0
-offset_bottom = 68.0
+offset_left = 134.0
+offset_right = 237.0
+offset_bottom = 89.0
 focus_mode = 0
 icon = ExtResource("9_qi3vf")
+flat = true
 
 [node name="btnRight" type="Button" parent="GameUI/BottomBar" unique_id=605126403]
 layout_mode = 0
-offset_left = 152.0
-offset_top = 14.0
-offset_right = 216.0
-offset_bottom = 68.0
+offset_left = 237.0
+offset_top = 10.0
+offset_right = 340.0
+offset_bottom = 99.0
 focus_mode = 0
 icon = ExtResource("10_ioybj")
+flat = true
 
 [node name="btnShoot" type="Button" parent="GameUI/BottomBar" unique_id=235653240]
 layout_mode = 0
-offset_left = 220.0
-offset_top = 14.0
-offset_right = 284.0
-offset_bottom = 72.0
+offset_left = 997.0
+offset_top = 10.0
+offset_right = 1100.0
+offset_bottom = 99.0
 focus_mode = 0
 icon = ExtResource("13_v4do5")
+flat = true
 expand_icon = true
 
 [node name="btnExit" parent="GameUI/BottomBar" unique_id=1633606001 instance=ExtResource("14_b47np")]
 layout_mode = 0
-offset_left = 1061.0
-offset_top = 14.0
-offset_right = 1134.0
-offset_bottom = 68.0
+offset_left = 1074.0
+offset_top = -535.0
+offset_right = 1147.0
+offset_bottom = -481.0
 text = "Exit"
 
 [node name="AlertLabel" type="Label" parent="GameUI/BottomBar" unique_id=1518313051]
